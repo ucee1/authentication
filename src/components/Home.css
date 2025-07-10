@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f3fa;
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
+  
+} 
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+ margin-bottom: 180px;
+ 
+}
+.navContent{
+     padding: 20px 40px;
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.navbar .logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #3366ff;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Main Content */
+.main-content {
+  text-align: center;
+  flex: 1;
+  padding: 60px 20px;
+}
+
+.main-content h1 {
+  font-size: 2.2rem;
+  color: #3366ff;
+  margin-bottom: 15px;
+}
+
+.main-content p {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.primary {
+  background-color: #3366ff;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #1e4ed8;
+}
+
+.secondary {
+  background-color: #fff;
+  border: 2px solid #3366ff;
+  color: #3366ff;
+}
+
+.secondary:hover {
+  background-color: #e0eaff;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 0.9rem;
+}
